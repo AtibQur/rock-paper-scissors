@@ -1,0 +1,80 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.rockPaperScissors {
+  margin: auto;
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gameContainer {
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionButton {
+  width: 200px;
+  height: 200px;
+  margin: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.optionButtonPlayer:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.winScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.showWinner {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.resetGame {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.resetGame button {
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.resetGame button:hover {
+  background-color: #0056b3;
+}
+
+.enemyCount,
+.playerCount {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+}
